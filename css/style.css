@@ -1,34 +1,28 @@
 .bg-black {
-  background-color: black;
+  background-color : black;
 }
 img {
-  width: 100%;
-  height: 100%;
+  width : 100%;
+  height : 100%;
 }
 .font-div {
-  width: 40%;
+  width : 40%;
 }
 .btn {
-  color: white;
+  color : white;
 }
 .btn:hover {
-  color: lightblue;
+  color : lightblue;
 }
-.card .card-body {
-  border: 1px solid lightblue;
-}
-.mapouter {
-  position: relative;
-  text-align: right;
-  height: 500px;
-  width: 600px;
-  margin: 20px;
-}
-.gmap_canvas {
-  overflow: hidden;
-  background: none !important;
-  height: 500px;
-  width: 600px;
+
+#quoteDisplay{
+  height: 30%;
+  width: 100%;
+  background-color : lightblue;
+  text-align : center;
+  font-size : 20px;
+  
+  
 }
 
 /*/// responsive ///*/
