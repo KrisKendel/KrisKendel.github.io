@@ -1,4 +1,4 @@
-var quotes = [
+const quotes = [
   "Your limitation—it’s only your imagination.",
   "Push yourself, because no one else is going to do it for you.",
   "Sometimes later becomes never. Do it now",
@@ -21,8 +21,12 @@ var quotes = [
 ];
 
 function newQuote() {
-  var randomNumber = Math.floor(Math.random() * quotes.length); // without number (quotes.length) it will always revert back to 0
-  document.getElementById("quoteDisplay").innerHTML = quotes[randomNumber]; // With JQuery: "$('#quoteDisplay').html(quotes[randomNumber]);"
+  const randomNumber = Math.floor(Math.random() * quotes.length); // without number (quotes.length) it will always revert back to 0
+  const paragraph = document.createElement("p");
+  document.getElementById("quoteDisplay").innerHTML = "";
+  paragraph.innerText = quotes[randomNumber]; 
+  document.getElementById("quoteDisplay").appendChild(paragraph);
+
 }
 
 $(".font-div").click(function() {
