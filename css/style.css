@@ -39,12 +39,31 @@ img {
 @media only screen and (min-width: 1198px) {
   .font-div {
     padding: 90px 0px !important;
+  } 
+  .hicons div > a {
+    margin-right: 25px;
   }
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .display-4{
+    font-size: 1.8rem;
+ }
+  .hicons {
+  flex-direction: column !important;
   
+ }
+ .hicons div > a {
+   margin-right: 25px;
+   
+}
+.container {
+  padding: 0px;
+  
+
+}
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
