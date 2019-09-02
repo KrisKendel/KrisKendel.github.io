@@ -43,30 +43,60 @@ img {
   .hicons div > a {
     margin-right: 25px;
   }
+  
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .display-4{
     font-size: 1.8rem;
- }
+
+}
   .hicons {
   flex-direction: column !important;
-  
- }
+
+}
  .hicons div > a {
    margin-right: 25px;
-   
+
 }
 .container {
   padding: 0px;
-  
-
 }
+
+h2,
+h5,
+h6{
+  text-align: center;
+}
+
+.flex-lg-row{
+  border:1px solid white;
+}
+
+.treebtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin:20px;
+}
+
 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
+  .font-div {
+    padding: 60px 0px !important;
+  } 
+  .hicons {
+    flex-direction: column !important;
+  
+  }
+   .hicons div > a {
+     margin-right: 25px;
+  
+  }
 }

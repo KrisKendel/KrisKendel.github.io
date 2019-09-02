@@ -32,3 +32,9 @@ function newQuote() {
 $(".font-div").click(function() {
   $(".collapse").collapse("hide");
 });
+
+
+$('.container').on('click','.font-div',function () {
+  $(this).parent().find('.font-div').css('color', '');
+  $(this).css('color', '#00fff0');
+});
