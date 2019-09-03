@@ -34,6 +34,12 @@ img {
  color: black;
 }
 
+.treebtn{
+  align-items: center;
+  border-radius: 10px;
+  margin:20px;
+}
+
 /*/// Responsive ///*/
 
 @media only screen and (min-width: 1198px) {
