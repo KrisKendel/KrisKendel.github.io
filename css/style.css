@@ -60,6 +60,7 @@ html {
     .font-div {
         padding: 90px 0px !important;
     }
+
     .hicons div>a {
         margin-right: 25px;
     }
@@ -72,23 +73,29 @@ html {
     .display-4 {
         font-size: 1.8rem;
     }
+
     .hicons {
         flex-direction: column !important;
     }
+
     .hicons div>a {
         margin-right: 25px;
     }
+
     .container {
         padding: 0px;
     }
+
     h2,
     h5,
     h6 {
         text-align: center;
     }
+
     .flex-lg-row {
         border: 1px solid white;
     }
+
     .treebtn {
         display: flex;
         justify-content: center;
@@ -97,6 +104,7 @@ html {
         border-radius: 10px;
         margin: 20px;
     }
+
     .image {
         padding: 10px;
         background-color: black;
@@ -104,12 +112,13 @@ html {
 }
 
 body {
-    background: url('http://getwallpapers.com/wallpaper/full/d/1/b/419066.jpg') no-repeat center center fixed;
+    background: url('http://getwallpapers.com/wallpaper/full/5/d/0/1131816-abstract-pattern-wallpaper-2560x1600-for-tablet.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
+
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -118,9 +127,11 @@ body {
     .font-div {
         padding: 60px 0px !important;
     }
+
     .hicons {
         flex-direction: column !important;
     }
+
     .hicons div>a {
         margin-right: 25px;
     }
