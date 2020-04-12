@@ -53,6 +53,9 @@ html {
     overflow-y: scroll;
 }
 
+.picture-gallery {
+    margin-top: 20px;
+}
 
 /*/// Responsive ///*/
 
