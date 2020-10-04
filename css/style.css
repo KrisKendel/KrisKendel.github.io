@@ -57,6 +57,10 @@ html {
     margin-top: 20px;
 }
 
+.main-navigation {
+ cursor: pointer;
+}
+
 /*/// Responsive ///*/
 
 @media only screen and (min-width: 1198px) {
