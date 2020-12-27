@@ -1,293 +1,781 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Kristijan Kendel | My portfolio</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <meta charset="utf-8">
+  <title>DevFolio Bootstrap Template</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: DevFolio
+    Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
 </head>
 
-<body>
-    <header>
-        <div class="container">
-            <div class="row no-gutters">
-                <div class="col-lg-4 col-md-4" style="background: #343a40;">
-                    <img src="img/kendel_kristijan_profile.jpg" class="image" alt="profilepic" />
-                </div>
-                <div class="col-lg-8 col-md-8">
-                    <div class="d-flex flex-column">
-                        <div class="p-5 bg-dark text-white">
-                            <div class="hicons d-flex flex-row justify-content-between align-items-center">
-                                <h1 class="display-4"><b>Kristijan Kenđel</b></h1>
-                                <div>
-                                    <a href="https://www.linkedin.com/in/kristijan-kendel-53a685a1/" target="_blank">
-                                        <i class="fa fa-linkedin fa-3x text-info hvr-grow"></i>
-                                    </a>
+<body id="page-top">
 
-                                    <a href="https://github.com/KrisKendel" target="_blank">
-                                        <i class="fa fa-github fa-3x text-info hvr-grow"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="p-3 text-white bg-black">
-                            <h2>Frontend Developer</h2>
-                        </div>
-
-                        <div class="d-flex flex-lg-row text-center text-white">
-                            <div class="pmd-4 pxy-2 bg-info font-div main-navigation" data-toggle="collapse"
-                                data-target="#home">
-                                <i class="fa fa-user fa-2x d-block hvr-grow-rotate"></i>About
-                            </div>
-                            <div class="pmd-4 pxy-2 bg-dark font-div main-navigation" data-toggle="collapse"
-                                data-target="#resume">
-                                <i class="fa fa-wrench fa-2x d-block hvr-grow-rotate"></i>Resume
-                            </div>
-                            <div class="pmd-4 pxy-2 bg-info font-div main-navigation" data-toggle="collapse"
-                                data-target="#work">
-                                <i class="fa fa-folder fa-2x d-block hvr-grow-rotate"></i>Work
-                            </div>
-                            <div class="pmd-4 pxy-2 bg-dark font-div main-navigation" data-toggle="collapse"
-                                data-target="#contact">
-                                <i class="fa fa-envelope fa-2x d-block hvr-grow-rotate"></i>Contact
-                            </div>
-                            <div class="pmd-4 pxy-2 bg-info font-div main-navigation" data-toggle="collapse"
-                                data-target="#fun">
-                                <i class="fa fa-smile-o fa-2x d-block hvr-grow-rotate"></i>Fun
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
+  <!--/ Nav Star /-->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-        <div class="collapse" id="home">
-            <div class="p-5 text-white bg-info">
-                <h2>About me</h2>
-                <p>
+      <a class="navbar-brand js-scroll" href="#page-top">Portfolio</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#service">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/ Nav End /-->
+
+  <!--/ Intro Skew Star /-->
+  <div id="home" class="intro route bg-image" style="background-image: url(img/intro-bg.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="intro-title mb-4">I am Kristijan Kenđel</h1>
+          <p class="intro-subtitle">Frontend Developer</p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Intro Skew End /-->
+
+  <section id="about" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-sm-6 col-md-5">
+                    <div class="about-img">
+                      <img src="img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-7">
+                    <div class="about-info">
+                      <p><span class="title-s">Name: </span> <span>Kristijan Kenđel</span></p>
+                      <p><span class="title-s">Profile: </span> <span>Frontend developer</span></p>
+                      <p><span class="title-s">Email: </span> <span>kriskendel@gmail.com</span></p>
+                      <p><span class="title-s">Phone: </span> <span>+385989774711
+
+                      </span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-mf">
+                  <p class="title-s">Skill</p>
+                  <span>HTML</span> <span class="pull-right">85%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>CSS3</span> <span class="pull-right">75%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>PHP</span> <span class="pull-right">50%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>JAVASCRIPT</span> <span class="pull-right">90%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="about-me pt-4 pt-md-0">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      About me
+                    </h5>
+                  </div>
+                  <p class="lead">
                     Hi, I am Kristijan Kenđel, Frontend developer. Currently working as Angular
                     developer in Zagreb/Croatia
-                </p>
-            </div>
-
-            <div class="card card-header">
-                <h2>My Skills</h2>
-                <div class="card-deck">
-                    <div class="card-body">
-                        <p><b>Frontend Developer</b></p>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>TypeScript</li>
-                            <li>Bootstrap</li>
-                            <li>Responsive</li>
-                            <li>Git</li>
-                            <li>Angular</li>
-                            <li>Protractor</li>
-                            <li>Docker</li>
-                            <li>SQL Management Studio</li>
-                            <li>Altova Umodel</li>
-                        </ul>
-                    </div>
-                    <div class="card-body">
-                        <p><b>Manufacturing</b></p>
-                        <ul>
-                            <li>Solidworks</li>
-                            <li>post-processors</li>
-                            <li>Problem-solving</li>
-                            <li>CAM</li>
-                            <li>Technology development</li>
-                        </ul>
-                    </div>
-                    <div class="card-body">
-                        <p><b>Communication skills</b></p>
-                        <ul>
-                            <li>Team spirit</li>
-                            <li>Friendliness</li>
-                            <li>Empathy</li>
-                            <li>Feedback</li>
-                            <li>Respect</li>
-                        </ul>
-                    </div>
+                  </p>
+                  <p class="lead">
+                    Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
+                    porttitor volutpat. Vestibulum
+                    ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
+                  </p>
+                  <p class="lead">
+                    Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+                    Nulla porttitor accumsan
+                    tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                  </p>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-
-        <div class="collapse" id="resume">
-            <div class="p-5 text-white bg-dark">
-                <h2>About my work experience</h2>
-            </div>
-
-            <div class="card card-body">
-                <h2>Where have I worked?</h2>
-                <p>Last three jobs:</p>
-
-                <div class="card-deck">
-                    <div class="card">
-                        <div class="card-header text-uppercase font-weight-blod">
-                            Matrica Company
-                        </div>
-                        <div class="card-body">
-                            <ul>
-                                <li>Developing bussines apps in Angular</li>
-                            </ul>
-                            <p class="bg-dark text-white p-2">Frontend developer</p>
-                        </div>
-
-                        <div class="card-footer">November 2020 - Present</div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header text-uppercase font-weight-blod">
-                            UniqCast
-                        </div>
-                        <div class="card-body">
-                            <ul>
-                                <li>Developing IPTV app with Angular</li>
-                                <li>Developing CSMS app with Angular</li>
-                                <li>Developing E2E tests for Angular apps</li>
-                                <li>Scrum process</li>
-                            </ul>
-                            <p class="bg-dark text-white p-2">Frontend developer</p>
-                        </div>
-                        <div class="card-footer">March 2020 - November 2020</div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header text-uppercase font-weight-blod">
-                            Vijcane pumpe
-                        </div>
-                        <div class="card-body">
-                            <ul>
-                                <li>Programming 4-axis CNC milling machines</li>
-                                <li>Editing post-processors(JavaScript)</li>
-                                <li>Sketching in Solidworks</li>
-                                <li>Technology development</li>
-                            </ul>
-                            <p class="bg-dark text-white p-2">CAD/CAM Programmer</p>
-                        </div>
-
-                        <div class="card-footer">August 2017 - March 2020</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="collapse" id="work">
-            <div class="p-5 text-white bg-info">
-                <h2>Projects</h2>
-            </div>
-
-            <div class="card card-body">
-                <h2>My projects - You can visit my github profile to see more..</h2>
-                <ol>
-                    <li>
-                        <b>Editing post processors</b>
-                        <p>
-                            Here I used JavaScript to edit post-processors for
-                            Inventor(CAD/CAM). Post-processors were intended for CNC milling
-                            and lathe machines, I changed machine tool positioning before
-                            and after milling/turning to fit their needs, also enabling
-                            additional axis (boolean), I also used Autodesk Fusion 360 Post
-                            Processor Utility debugger to see If G-code is as needed etc.
-                            This is the first time me facing JavaScript.
-                        </p>
-                    </li>
-
-                    <li>
-                        <b>This Web-page</b>
-                        <p>
-                            I used basics of HTML, CSS, JavaScript to make my very first
-                            Web-page, also I have used Bootstrap, and a little bit of
-                            JQuery, Here I learn how to use GitHub and GitHub pages to
-                            deploy Web-page. Also it is responsive.
-                        </p>
-                    </li>
-
-                    <li>
-                        <b>Forecast Web application</b>
-                        <p>
-                            7 day forecast of any Croatian city using HTML,CSS, JavaScript.
-                            Responsive
-                        </p>
-                    </li>
-
-                    <li>
-                        <b>Book Rent app</b>
-
-                        <p>Angular app combined with Json-server</p>
-                    </li>
-                    <li>
-                        <b>Chat App</b>
-                        <p>Incognito Chat app with Angular 9 and Angular Material</p>
-                    </li>
-                </ol>
-            </div>
-        </div>
+      </div>
     </div>
-    <div class="container">
-        <div class="collapse" id="contact">
-            <div class="p-5 text-white bg-dark">
-                <h2>Contact</h2>
-            </div>
+  </section>
 
-            <div class="card card-header">
-                <div class="card-deck">
-                    <div class="card-body">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <p>
-                                    If you wish to contact me, please do so at
-                                    <a href="mailto:kriskendel@gmail.com">kriskendel@gmail.com</a>
-                                </p>
+  <!--/ Section Services Star /-->
+  <section id="service" class="services-mf route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Services
+            </h3>
+            <p class="subtitle-a">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-monitor"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Web Design</h2>
+              <p class="s-description text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-code-working"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Web Development</h2>
+              <p class="s-description text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-camera"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Photography</h2>
+              <p class="s-description text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Responsive Design</h2>
+              <p class="s-description text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-paintbrush"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Graphic Design</h2>
+              <p class="s-description text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-stats-bars"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Marketing Services</h2>
+              <p class="s-description text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Section Services End /-->
+
+  <div class="section-counter paralax-mf bg-image" style="background-image: url(img/counters-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">15</p>
+              <span class="counter-text">WORKS COMPLETED</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">9</p>
+              <span class="counter-text">MONTHS OF EXPERIENCE</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-ios-people"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">1</p>
+              <span class="counter-text">TOTAL CLIENTS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">0</p>
+              <span class="counter-text">AWARD WON</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--/ Section Portfolio Star /-->
+  <section id="work" class="portfolio-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Portfolio
+            </h3>
+            <p class="subtitle-a">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/work-1.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/work-1.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Lorem impsum dolor</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/work-2.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/work-2.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Loreda Cuno Nere</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/work-3.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/work-3.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Mavrito Lana Dere</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/work-4.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/work-4.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Bindo Laro Cado</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/work-5.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/work-5.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Studio Lena Mado</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/work-6.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/work-6.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Studio Big Bang</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!--/ Section Portfolio End /-->
+
+  <!--/ Section Testimonials Star /-->
+  <div class="testimonials paralax-mf bg-image" style="background-image: url(img/overlay-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="testimonial-mf" class="owl-carousel owl-theme">
+            <div class="testimonial-box">
+              <div class="author-test">
+                <img src="img/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
+                <span class="author">Xavi Alonso</span>
+              </div>
+              <div class="content-test">
+                <p class="description lead">
+                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit.
+                </p>
+                <span class="comit"><i class="fa fa-quote-right"></i></span>
+              </div>
+            </div>
+            <div class="testimonial-box">
+              <div class="author-test">
+                <img src="img/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
+                <span class="author">Marta Socrate</span>
+              </div>
+              <div class="content-test">
+                <p class="description lead">
+                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit.
+                </p>
+                <span class="comit"><i class="fa fa-quote-right"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--/ Section Blog Star /-->
+  <section id="blog" class="blog-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Blog
+            </h3>
+            <p class="subtitle-a">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-img">
+              <a href="blog-single.html"><img src="img/post-1.jpg" alt="" class="img-fluid"></a>
+            </div>
+            <div class="card-body">
+              <div class="card-category-box">
+                <div class="card-category">
+                  <h6 class="category">Travel</h6>
+                </div>
+              </div>
+              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
+              <p class="card-description">
+                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
+                a pellentesque nec,
+                egestas non nisi.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="post-author">
+                <a href="#">
+                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                  <span class="author">Kristijan Kenđel</span>
+                </a>
+              </div>
+              <div class="post-date">
+                <span class="ion-ios-clock-outline"></span> 10 min
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-img">
+              <a href="blog-single.html"><img src="img/post-2.jpg" alt="" class="img-fluid"></a>
+            </div>
+            <div class="card-body">
+              <div class="card-category-box">
+                <div class="card-category">
+                  <h6 class="category">Web Design</h6>
+                </div>
+              </div>
+              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
+              <p class="card-description">
+                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
+                a pellentesque nec,
+                egestas non nisi.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="post-author">
+                <a href="#">
+                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                  <span class="author">Kristijan Kenđel</span>
+                </a>
+              </div>
+              <div class="post-date">
+                <span class="ion-ios-clock-outline"></span> 10 min
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-img">
+              <a href="blog-single.html"><img src="img/post-3.jpg" alt="" class="img-fluid"></a>
+            </div>
+            <div class="card-body">
+              <div class="card-category-box">
+                <div class="card-category">
+                  <h6 class="category">Web Design</h6>
+                </div>
+              </div>
+              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
+              <p class="card-description">
+                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
+                a pellentesque nec,
+                egestas non nisi.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="post-author">
+                <a href="#">
+                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                  <span class="author">Kristijan Kenđel</span>
+                </a>
+              </div>
+              <div class="post-date">
+                <span class="ion-ios-clock-outline"></span> 10 min
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Section Blog End /-->
+
+  <!--/ Section Contact-Footer Star /-->
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      Send Message Us
+                    </h5>
+                  </div>
+                  <div>
+                      <form action="" method="post" role="form" class="contactForm">
+                      <div id="sendmessage">Your message has been sent. Thank you!</div>
+                      <div id="errormessage"></div>
+                      <div class="row">
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                              <div class="validation"></div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="collapse" id="fun">
-            <div class="p-5 text-white bg-info">
-                <h2>Just for fun</h2>
-            </div>
-
-            <div class="card card-header">
-                <div class="card-deck">
-                    <div class="card-body">
-                        <h4>Random Quote</h4>
-                        <div id="quoteDisplay"></div>
-                        <div class="card-body">
-                            <button onclick="newQuote()" class="btn btn-info">
-                                New Quote
-                            </button>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <div class="validation"></div>
+                          </div>
                         </div>
-                    </div>
+                        <div class="col-md-12">
+                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
                 </div>
-                <div class="picture-gallery">
-                    <h4>Picture Gallery</h4>
+                <div class="col-md-6">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="title-left">
+                      Get in Touch
+                    </h5>
+                  </div>
+                  <div class="more-info">
+                    <p class="lead">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
+                      expedita aperiam aliquid at.
+                      Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
+                      mollitia inventore?
+                    </p>
+                    <ul class="list-ico">
+                      <li><span class="ion-ios-location"></span> ZAGREB, 10090</li>
+                      <li><span class="ion-ios-telephone"></span> (385) 98/977-4711</li>
+                      <li><span class="ion-email"></span> contact@example.com</li>
+                    </ul>
+                  </div>
+                  <div class="socials">
+                    <ul>
+                      <li><a href=""><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
+                      <li><a href=""><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                      <li><a href=""><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
+                      <li><a href=""><span class="ico-circle"><i class="ion-social-pinterest"></i></span></a></li>
+                    </ul>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="copyright-box">
+              <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+              <div class="credits">
+                <!--
+                  All the links in the footer should remain intact.
+                  You can delete the links only if you purchased the pro version.
+                  Licensing information: https://bootstrapmade.com/license/
+                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+                -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!--/ Section Contact-footer End /-->
 
-    <div class="container">
-        <footer class="p-5 bg-dark text-center">
-            <small class="text-white">Copyright © 2020 Object Machinist. All rights reserved.</small>
-        </footer>
-    </div>
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="project.js"></script>
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
 </body>
-
 </html>
