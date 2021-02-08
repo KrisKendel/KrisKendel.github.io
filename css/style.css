@@ -29,6 +29,20 @@ body {
   height: 180px;
 }
 
+.download-button {
+  background: #0078ff;
+  padding: 8px;
+  border-radius: 3px;
+  color: white;
+  position: relative;
+  top: 25px;
+}
+
+.download-button:hover {
+  color: white;
+  background: #0078ffbd;
+}
+
 h1,
 h2,
 h3,
